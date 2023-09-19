@@ -1,0 +1,95 @@
+#horloge {
+    background: #fff url(ios_clock.svg) no-repeat center;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(121, 130, 133);
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+#heures {
+    width: 50px;
+    height: 5px;
+    background-color: rgb(241, 135, 47);
+    z-index: 2;
+}
+#pointHeures{
+    background-color: rgb(241, 135, 47);
+    width: 10px;
+    height: 10px;
+    border-radius: 140px;
+    position: absolute;
+    top: -3px;
+    left: 60px;
+}
+
+/* Hassane Abdel-Razak */
+#minutes {
+    width: 60px;
+    height: 4px;
+    background-color: rgb(4, 242, 52);
+    z-index: 3;
+}
+#pointMinutes{
+    background-color: rgb(4, 242, 52);
+    width: 10px;
+    height: 10px;
+    border-radius: 140px;
+    position: absolute;
+    top: -3px;
+    left: 80px;
+}
+
+#secondes{
+    width: 90px;
+    height: 2px;
+    background-color: #fff;
+    z-index: 4;
+}
+#pointSecondes{
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 140px;
+    transform-origin: left center;
+    position: absolute;
+    top: -3px;
+    left: 100px;
+}
+#heures,
+#minutes,
+#secondes,
+span {
+    transform-origin: left center;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.auteur{
+    position: absolute;
+    left:75px;
+    top: 200px;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+    z-index: 1;
+    color: #fff;
+}
+.pseudo{
+    font-size: 150px;
+    position: absolute;
+    top: 25px;
+    left: 125px;
+    z-index: 5;
+    
+}
+/* Hassane ABdel-Razak */
+.date{
+    position:absolute ;
+    top: 50px;
+    left: 130px;
+    font-size: 18px;
+    color: rgb(241, 135, 47);
+}
